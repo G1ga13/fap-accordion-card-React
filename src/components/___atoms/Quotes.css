@@ -1,0 +1,85 @@
+.quote_box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.quote_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+
+.author {
+  margin: 0;
+  font-family: "Kumbh Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(75, 76, 95, 1);
+}
+
+.pointer {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pointer_img {
+  display: block;
+}
+
+.quote_text {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 0;
+  transition:
+    max-height 0.45s ease,
+    opacity 0.25s ease,
+    margin-top 0.25s ease;
+}
+
+.quote_open {
+  max-height: 220px;
+  opacity: 1;
+  margin-top: 10px;
+  font-family: "Kumbh Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: rgba(120, 120, 135, 1);
+}
+
+.pointer_img {
+  transition: transform 0.3s ease;
+}
+
+.pointer.open .pointer_img {
+  transform: rotate(180deg);
+}
+
+.header_open .author {
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(30, 31, 54, 1);
+}
+
+.quotes_title {
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(30, 31, 54, 1);
+}

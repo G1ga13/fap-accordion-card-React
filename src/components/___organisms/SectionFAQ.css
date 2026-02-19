@@ -1,0 +1,12 @@
+.section {
+  max-width: 920px;
+  width: 100%;
+  min-height: 509px;
+  border-radius: 23px;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
+  background-color: white;
+  border: 1px solid #ff0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
