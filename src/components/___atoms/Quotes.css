@@ -1,17 +1,18 @@
 .quote_box {
   display: flex;
   flex-direction: column;
-  width: 350px;
-  border: 1px solid red;
+  max-width: 350px;
+  width: 100%;
   padding: 10px;
   margin-bottom: 12px;
+  justify-content: space-between;
+  margin-right: 95px;
 }
 
 .quote_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 35px;
 }
 
 .author {
@@ -22,6 +23,11 @@
   line-height: 100%;
   letter-spacing: 0px;
   color: rgba(75, 76, 95, 1);
+}
+
+.author:hover {
+  color: rgba(244, 123, 86, 1);
+  cursor: pointer;
 }
 
 .pointer {
@@ -82,4 +88,15 @@
   line-height: 100%;
   letter-spacing: 0px;
   color: rgba(30, 31, 54, 1);
+}
+
+hr {
+  margin-top: 20px;
+  border: none;
+  height: 1px;
+  background-color: rgba(232, 232, 234, 1);
+}
+
+.quotes_title {
+  margin-bottom: 43px;
 }

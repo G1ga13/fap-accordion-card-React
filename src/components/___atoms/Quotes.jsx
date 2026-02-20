@@ -47,6 +47,7 @@ function Quote() {
               </button>
             </div>
             <p className={quoteClass}>{el.quote}</p>
+            <hr />
           </div>
         );
       })}

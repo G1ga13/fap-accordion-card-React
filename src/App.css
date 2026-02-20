@@ -9,6 +9,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  overflow: hidden;
+}
+
+@media (max-width: 605px) {
+  .image_container {
+    display: none;
+  }
 }

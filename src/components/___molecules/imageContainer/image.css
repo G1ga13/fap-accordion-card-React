@@ -1,4 +1,14 @@
-.image_container {
-  width: 472px;
-  height: 359px;
+.shadow {
+  width: 964px;
+  height: 568px;
+  top: 82px;
+  left: -576px;
+  opacity: 0.6;
+  position: absolute;
+}
+
+.box {
+  top: 215.13px;
+  left: -70px;
+  position: absolute;
 }
