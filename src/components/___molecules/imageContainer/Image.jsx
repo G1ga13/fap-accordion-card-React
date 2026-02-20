@@ -1,6 +1,6 @@
 import "./image.css";
-import isometric from "../../../../src/assets/mention_isometric.png";
-import imageShadow from "../../../../src/assets/ImageShadow.png";
+import isometric from "../../../assets/mention_isometric.png";
+import imageShadow from "../../../assets/imageShadow.png";
 
 function First() {
   return (
