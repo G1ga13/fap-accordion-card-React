@@ -1,6 +1,6 @@
 import "./Quotes.css";
 import { useEffect, useState } from "react";
-import { FetchData } from "../../Services/Api";
+import { FetchData } from "../../services/Api";
 import Pointer from "../../assets/pointer.svg";
 
 function Quote() {
