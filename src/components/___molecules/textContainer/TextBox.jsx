@@ -1,4 +1,3 @@
-import "./TextBox.css";
 import Quote from "../../___atoms/Quotes";
 
 function Text() {
